@@ -1,13 +1,18 @@
+:root {
+  --primary-color: #ffebba;
+}
 body {
   font-family: "Courier New", Courier, monospace;
+  background-color: var(--primary-color);
 }
 h1 {
   font-family: "Dancing Script", cursive;
   font-size: 50px;
   text-align: center;
   margin-bottom: 5px;
+  margin-top: 0;
 }
-h2 {
+p {
   font-size: 18px;
   text-align: center;
   margin-top: 0;
@@ -15,27 +20,18 @@ h2 {
 }
 .first-two-meals {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .second-two-meals {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .meal {
   background-color: white;
-  padding: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 10px 20px;
+  margin: 10px 10px 10px 10px;
   border: 1px black solid;
   border-radius: 5px;
-}
-.breakfast,
-.dinner {
-  position: relative;
-}
-.lunch-snack,
-.dessert {
-  position: relative;
 }
 img {
   width: 200px;
@@ -43,9 +39,27 @@ img {
 }
 a {
   text-decoration: none;
+  text-align: center;
   display: block;
   margin: 5px;
+  color: #0000ee;
 }
 a:hover {
   text-decoration: underline;
+}
+a:visited {
+  color: #0000ee;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px;
+}
+.recipe {
+  margin: 5px;
+  padding: 10px;
+  background-color: var(--primary-color);
+}
+.footnote {
+  font-size: 12px;
 }
