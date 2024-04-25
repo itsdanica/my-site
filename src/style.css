@@ -1,8 +1,10 @@
 :root {
-  --primary-color: #ffebba;
+  --primary-color: #b5e6dd;
 }
 body {
   font-family: "Courier New", Courier, monospace;
+}
+.index {
   background-color: var(--primary-color);
 }
 h1 {
@@ -56,7 +58,7 @@ h2 {
   margin: 5px;
 }
 .recipe {
-  margin: 5px;
+  margin: 15px;
   padding: 10px;
   background-color: var(--primary-color);
 }
